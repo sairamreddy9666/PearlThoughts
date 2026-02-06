@@ -118,7 +118,11 @@ Specified subnet explicitly in Terraform configuration.
 ## 📎 Repository Link
 
 https://github.com/sairamreddy9666/PearlThoughts/tree/sairam/task-2
+---
 
+## 🎥 Loom Video
+
+https://www.loom.com/share/3d45bb48b7494ba98f8e0eb5875a3411
 ---
 
 ## 📸 Terraform EC2 Provisioning Screenshots
