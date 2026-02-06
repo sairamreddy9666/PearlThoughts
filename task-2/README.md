@@ -117,6 +117,9 @@ Specified subnet explicitly in Terraform configuration.
 
 ## 📎 Repository Link
 
+https://github.com/sairamreddy9666/PearlThoughts/tree/sairam/task-2
+
+---
 
 ## 📸 Terraform EC2 Provisioning Screenshots
 
