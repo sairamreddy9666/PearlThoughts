@@ -1,61 +1,126 @@
-# 🚀 Getting started with Strapi
+# Task-1: Strapi Setup on AWS EC2
 
-Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/dev-docs/cli) (CLI) which lets you scaffold and manage your project in seconds.
-
-### `develop`
-
-Start your Strapi application with autoReload enabled. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-develop)
-
-```
-npm run develop
-# or
-yarn develop
-```
-
-### `start`
-
-Start your Strapi application with autoReload disabled. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-start)
-
-```
-npm run start
-# or
-yarn start
-```
-
-### `build`
-
-Build your admin panel. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-build)
-
-```
-npm run build
-# or
-yarn build
-```
-
-## ⚙️ Deployment
-
-Strapi gives you many possible deployment options for your project including [Strapi Cloud](https://cloud.strapi.io). Browse the [deployment section of the documentation](https://docs.strapi.io/dev-docs/deployment) to find the best solution for your use case.
-
-```
-yarn strapi deploy
-```
-
-## 📚 Learn more
-
-- [Resource center](https://strapi.io/resource-center) - Strapi resource center.
-- [Strapi documentation](https://docs.strapi.io) - Official Strapi documentation.
-- [Strapi tutorials](https://strapi.io/tutorials) - List of tutorials made by the core team and the community.
-- [Strapi blog](https://strapi.io/blog) - Official Strapi blog containing articles made by the Strapi team and the community.
-- [Changelog](https://strapi.io/changelog) - Find out about the Strapi product updates, new features and general improvements.
-
-Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/strapi). Your feedback and contributions are welcome!
-
-## ✨ Community
-
-- [Discord](https://discord.strapi.io) - Come chat with the Strapi community including the core team.
-- [Forum](https://forum.strapi.io/) - Place to discuss, ask questions and find answers, show your Strapi project and get feedback or just talk with other Community members.
-- [Awesome Strapi](https://github.com/strapi/awesome-strapi) - A curated list of awesome things related to Strapi.
+## 📌 Objective
+Clone repository, run Strapi locally on an EC2 instance, explore the project structure, create a sample setup, and push the work to GitHub.
 
 ---
 
-<sub>🤫 Psst! [Strapi is hiring](https://strapi.io/careers).</sub>
+## 🖥️ Environment Details
+- AWS EC2 Linux instance
+- Node.js + npm installed
+- Git installed
+- Strapi created using NPX
+
+---
+
+## 🚀 Steps Performed
+
+### 1. Installed Git
+```bash
+yum install git -y
+```
+
+---
+
+## 2. Cloned GitHub Repository
+```
+git clone https://github.com/sairamreddy9666/PearlThoughts.git
+cd PearlThoughts
+```
+---
+
+## 3. Created Task Folder
+```
+mkdir task-1
+cd task-1
+```
+
+---
+
+## 4. Installed Node.js
+```
+yum install nodejs -y
+node -v
+npm -v
+```
+
+---
+
+## 5. Created Strapi Application
+```
+npx create-strapi-app strapi --quickstart
+```
+
+This:
+
+- Installed Strapi automatically
+
+- Configured SQLite database
+
+- Started development server
+
+---
+
+## 6. Ran Strapi Locally
+```
+cd strapi
+npm install
+npm run develop
+```
+
+Admin panel accessed via:
+```
+http://<EC2-PUBLIC-IP>:1337/admin
+```
+
+---
+
+## 7. Git Branch Creation & Push
+
+Created new branch:
+```
+git checkout -b sairam
+```
+
+Committed changes:
+```
+git add .
+git commit -m "initial commit"
+```
+
+Pushed to GitHub:
+```
+git push -u origin sairam
+```
+---
+
+## 📌 Outcome
+
+✔ Strapi application successfully created
+✔ Admin panel accessed
+✔ Project pushed to GitHub
+✔ Documentation prepared
+
+---
+## 📎 Repository Link
+
+https://github.com/sairamreddy9666/PearlThoughts/pull/1
+---
+
+---
+## 🎥 Loom Video
+
+https://www.loom.com/share/3d45bb48b7494ba98f8e0eb5875a3411
+---
+
+### Strapi Admin Panel
+
+<img width="1920" height="1080" alt="Screenshot 2026-02-06 153441" src="https://github.com/user-attachments/assets/25ef92f2-71d8-414a-982a-1f502da8ae48" />
+
+---
+
+### EC2 Terminal Running Strapi
+
+<img width="1920" height="1080" alt="Screenshot 2026-02-06 153408" src="https://github.com/user-attachments/assets/74099b1c-9fe6-46c9-8c0c-d1ccc83868e7" />
+
+---
