@@ -105,16 +105,19 @@ git push -u origin sairam
 ## 📎 Repository Link
 
 https://github.com/sairamreddy9666/PearlThoughts/pull/1
+---
 
+---
 ## 🎥 Loom Video
 
+https://www.loom.com/share/3d45bb48b7494ba98f8e0eb5875a3411
 ---
 
 ### Strapi Admin Panel
 
 <img width="1920" height="1080" alt="Screenshot 2026-02-06 153441" src="https://github.com/user-attachments/assets/25ef92f2-71d8-414a-982a-1f502da8ae48" />
 
-
+---
 
 ### EC2 Terminal Running Strapi
 
